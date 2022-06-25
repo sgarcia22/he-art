@@ -1,12 +1,16 @@
 <script lang="ts">
 import Chat from "@/components/Live/Chat.vue";
 import Profile from "@/components/Live/Profile.vue";
+import Header from '@/components/Header.vue';
 export default {
     components:
-    { Chat, Profile},
+    { Chat, Profile, Header},
 }
 </script>
 <template>
+    <div>
+        <Header/>
+    </div>
     <div class="flex justify-center content-center">
         <div class="grid grid-flow-row-dense grid-cols-3 grid-rows-1">
             <div class="grid grid-flow-row-dense grid-cols-1 grid-rows-3 col-span-2 p-8 ">
