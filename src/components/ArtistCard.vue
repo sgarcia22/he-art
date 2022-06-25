@@ -1,27 +1,35 @@
 <script lang="ts">
-// import ArtistModalVue from "./ArtistModal.vue";
+import ArtistModalVue from "./ArtistModal.vue";
 
 export default {
-//   name: 'ArtistCard',
-  props: {
-    artistInfo: Object,
-    // artist: String,
-    // oneliner: String,
-    // description: String,
-    // artistImageUrl: String,
-    // artistPortfolioImages: String,
-    // artistPortfolioSite: String,
-    // artistTwitterSite: String,
-  },
-  methods: {
-    openModal() {
-
-    }
-  },
+    data() {
+        return {
+            showModal: false,
+        }
+    },
+    components: {ArtistModalVue},
+    props: {
+        artistInfo: Object,
+        // artist: String,
+        // oneliner: String,
+        // description: String,
+        // artistImageUrl: String,
+        // artistPortfolioImages: String,
+        // artistPortfolioSite: String,
+        // artistTwitterSite: String,
+    },
+    methods: {
+        openModal() {
+            this.showModal = true;
+        },
+        closeModal() {
+            this.showModal = false;
+        }
+    },
 };
 </script>
 <template>
-    <div class="px-12 py-8 transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+    <div @click="openModal" class="px-12 py-8 transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
         <div class="flex flex-col sm:-mx-4 sm:flex-row">
             <img class="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300" :src="artistInfo.artistImageUrl" alt="">
 
@@ -44,5 +52,11 @@ export default {
                 <font-awesome-icon icon="fa-brands fa-twitter" />
             </a>
         </div>
+        <Modal v-model="showModal" :close="closeModal">
+            <div class="modal">
+            <ArtistModalVue @closedModal="closeModal" />
+            <!-- <button @click="closeModal">close</button> -->
+            </div>
+        </Modal>
     </div>
 </template>
