@@ -1,10 +1,11 @@
-import Home from './views/Home.vue'
 import ArtistPage from './views/ArtistPage.vue'
-import NotFound from './views/NotFound.vue'
+import LiveStreamingPage from './views/LiveStreamingPage.vue'
 
 /** @type {import('vue-router').RouterOptions['routes']} */
 export const routes = [
   { path: '/', component: ArtistPage, meta: { title: 'ArtistPage' } },
+  { path: '/artist', component: ArtistPage, meta: { title: 'ArtistPage' } },
+  { path: '/live', component: LiveStreamingPage, meta: { title: 'LiveStreamingPage' } },
   // {
   //   path: '/about',
   //   meta: { title: 'About' },

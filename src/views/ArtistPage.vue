@@ -1,5 +1,5 @@
 <script setup>
-import ArtistContainer from '@/components/ArtistContainer.vue';
+import ArtistContainer from '@/components/Artist/ArtistContainer.vue';
 import Header from '@/components/Header.vue';
 </script>
 <script>

@@ -1,5 +1,5 @@
 <script lang="ts">
-import ArtistCard from '@/components/ArtistCard.vue'
+import ArtistCard from './ArtistCard.vue'
 
 export default {
   props: {

@@ -5,6 +5,12 @@ export const store = createStore({
       return {
         web3Provider: null,
         voted: null,
+        pageIndex: 0,
+        page: [
+          '/artist',
+          '/live',
+          '/auction',
+        ],
       }
     },
     mutations: {

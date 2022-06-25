@@ -1,6 +1,6 @@
 <script lang="ts">
 import 'vue3-carousel/dist/carousel.css';
-import { connectWallet } from "../utils/web3wallet";
+import { connectWallet } from "../../utils/web3wallet";
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel';
 
 export default {
