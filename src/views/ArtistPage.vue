@@ -1,5 +1,5 @@
 <script setup>
-import ArtistCard from '@/components/ArtistCard.vue'
+import ArtistContainer from '@/components/ArtistContainer.vue'
 </script>
 <script>
 export default {
@@ -23,6 +23,6 @@ export default {
 
 <template>
   <div class="bg-gray-50">
-    <ArtistCard :artists="artists"/>
+    <ArtistContainer :artistsList="artists"/>
   </div>
 </template>

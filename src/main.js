@@ -15,6 +15,10 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 
+import 'vue-universal-modal/dist/index.css';
+
+import VueUniversalModal from 'vue-universal-modal';
+
 /* add icons to the library */
 library.add(faGlobe)
 library.add(faTwitter)
@@ -22,6 +26,10 @@ library.add(faTwitter)
 const app = createApp(App)
 
 app.component('font-awesome-icon', FontAwesomeIcon);
+
+app.use(VueUniversalModal, {
+  teleportTarget: '#modals',
+});
 
 // library.add(FontAwesomeIcon)
 
