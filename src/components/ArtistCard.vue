@@ -54,7 +54,7 @@ export default {
         </div>
         <Modal v-model="showModal" :close="closeModal">
             <div class="modal">
-            <ArtistModalVue @closedModal="closeModal" />
+            <ArtistModalVue @closedModal="closeModal" :artistPortfolioImages="artistInfo.artistPortfolioImages"/>
             <!-- <button @click="closeModal">close</button> -->
             </div>
         </Modal>
