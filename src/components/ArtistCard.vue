@@ -189,6 +189,14 @@
 </template>
 <script lang="ts">
 export default {
-  name: 'ArtistCard'
+  name: 'ArtistCard',
+  props: {
+    artist: String,
+    description: String,
+    artistImageUrl: String,
+    artistPortfolioImages: String,
+    artistPortfolioSite: String,
+    artistTwitterSite: String,
+  },
 };
 </script>
