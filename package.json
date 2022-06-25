@@ -13,11 +13,14 @@
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/vue-fontawesome": "^3.0.1",
     "@walletconnect/web3-provider": "^1.7.8",
+    "ethers": "^5.6.9",
     "vue": "^3.2.37",
     "vue-router": "^4.0.16",
     "vue-universal-modal": "^1.1.4",
     "vue3-carousel": "^0.1.40",
-    "web3": "^1.7.4"
+    "vuex": "^4.0.2",
+    "web3": "^1.7.4",
+    "web3modal": "^1.9.8"
   },
   "devDependencies": {
     "@headlessui/vue": "^1.6.4",
