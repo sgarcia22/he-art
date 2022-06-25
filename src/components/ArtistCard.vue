@@ -33,7 +33,10 @@ export default {
 };
 </script>
 <template>
-    <div @click="openModal" class="px-12 py-8 transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+    <div 
+        @click="openModal"
+        :class=" this.$store.state.voted?.address == this.artistInfo.address ? 'border-blue-400 border-4' :'' "
+        class="px-12 py-8 transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
         <div class="flex flex-col sm:-mx-4 sm:flex-row">
             <img class="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300" :src="artistInfo.artistImageUrl" alt="">
 
