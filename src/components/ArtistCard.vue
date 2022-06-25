@@ -24,6 +24,10 @@ export default {
         },
         closeModal() {
             this.showModal = false;
+        },
+        selectedArtist() {
+            this.showModal = false;
+            this.$store.state.voted = this.artistInfo;
         }
     },
 };
@@ -54,7 +58,7 @@ export default {
         </div>
         <Modal v-model="showModal" :close="closeModal">
             <div class="modal">
-            <ArtistModalVue @closedModal="closeModal" :artistPortfolioImages="artistInfo.artistPortfolioImages"/>
+            <ArtistModalVue @closedModal="closeModal" @selectedArtist="selectedArtist" :artistPortfolioImages="artistInfo.artistPortfolioImages"/>
             <!-- <button @click="closeModal">close</button> -->
             </div>
         </Modal>

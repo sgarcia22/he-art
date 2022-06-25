@@ -4,6 +4,7 @@ export const store = createStore({
     state () {
       return {
         web3Provider: null,
+        voted: null,
       }
     },
     mutations: {

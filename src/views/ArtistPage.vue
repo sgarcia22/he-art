@@ -19,6 +19,7 @@ export default {
                     ],
                     artistPortfolioSite: 'https://samgarcia.xyz',
                     artistTwitterSite: 'https://twitter.com/samangarc22',
+                    address: '',
                 },
                 {
                     name: 'Sam Garcia',
@@ -32,6 +33,7 @@ export default {
                     ],
                     artistPortfolioSite: 'https://samgarcia.xyz',
                     artistTwitterSite: 'https://twitter.com/samangarc22',
+                    address: '',
                 },
                 {
                     name: 'Sam Garcia',
@@ -45,6 +47,7 @@ export default {
                     ],
                     artistPortfolioSite: 'https://samgarcia.xyz',
                     artistTwitterSite: 'https://twitter.com/samangarc22',
+                    address: '',
                 },
                 {
                     name: 'Sam Garcia',
@@ -58,6 +61,7 @@ export default {
                     ],
                     artistPortfolioSite: 'https://samgarcia.xyz',
                     artistTwitterSite: 'https://twitter.com/samangarc22',
+                    address: '',
                 },
                 {
                     name: 'Sam Garcia',
@@ -71,6 +75,7 @@ export default {
                     ],
                     artistPortfolioSite: 'https://samgarcia.xyz',
                     artistTwitterSite: 'https://twitter.com/samangarc22',
+                    address: '',
                 },
                 
             ],
