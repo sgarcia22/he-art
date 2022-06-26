@@ -1,7 +1,9 @@
 # HE(ART) 🌻
 
+![Screenshot](https://storage.googleapis.com/ethglobal-api-production/projects/cs85k/images/Screen%20Shot%202022-06-26%20at%203.52.21%20AM.png)
+
 [Deployed Site](https://sparkling-daffodil-b5bb66.netlify.app/)
-![ETHGlobal Hackathon Submission](https://ethglobal.com/showcase/he-art-cs85k)
+[ETHGlobal Hackathon Submission](https://ethglobal.com/showcase/he-art-cs85k)
 
 HE(ART) is a gamified DAO governed collective to enable artists and users to take part in the creation and funding of public social good projects.
 
