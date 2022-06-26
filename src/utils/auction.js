@@ -1,6 +1,7 @@
 import {abi, address} from "./auction_abi.js";
 import { store } from "../store.js";
 const { ethers } = require('ethers');
+import {sendNotification} from './epns';
 
 const provider = this.$store.state.web3Provider;
 
@@ -23,6 +24,7 @@ export async function createAuction() {
     sendPromise.then(function(transaction){
     console.log("Created Auction" + transaction);
     });
+    sendNotification(store.state.web3Provider.getSigner().getAddress(), "Auction started", "The Auction for the cause has started", "The auction has started", "Auction started");
 }
 
 export async function addBid(amount) {
@@ -36,6 +38,7 @@ export async function addBid(amount) {
     sendPromise.then(function(transaction){
     console.log("Made bid" + transaction);
     });
+    sendNotification(store.state.web3Provider.getSigner().getAddress(), "Bid added", "A new bid has been added.", "Bid added", "A new bid has been added");
 }
 
 export async function stopAuction() {
@@ -47,4 +50,5 @@ export async function stopAuction() {
         sendPromise.then(function(transaction){
         console.log("Auction Settled" + transaction);
     });
+    sendNotification(store.state.web3Provider.getSigner().getAddress(), "Auction Ended", "The Auction for the cause has ended", "The auction has ended", "Auction ended");
 }

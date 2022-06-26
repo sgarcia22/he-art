@@ -2,9 +2,15 @@
 import Chat from "@/components/Live/Chat.vue";
 import Profile from "@/components/Live/Profile.vue";
 import Header from '@/components/Header.vue';
+import {uploadLivepeerVideo} from '@/utils/livepeer';
 export default {
     components:
     { Chat, Profile, Header},
+    methods: {
+        async uploadVideo() {
+            await uploadLivepeerVideo();
+        }
+    },
 }
 </script>
 <template>
