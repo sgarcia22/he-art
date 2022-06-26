@@ -1,10 +1,10 @@
 export async function mintTatum (name, description, image) {
     // // Upload image to IPFS
 
-    console.log(image.url);
+    console.log(image);
 
     const imageForm = new FormData();
-    imageForm.append("file", image);
+    imageForm.append("file", image.name);
     
     const imageResp = await fetch(
       `https://api-eu1.tatum.io/v3/ipfs`,
