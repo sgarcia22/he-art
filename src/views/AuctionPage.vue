@@ -6,7 +6,8 @@ export default {
         description: String,
         artists: Array,
         auctionTimeLeft: String,
-    }
+    },
+
 }
 </script>
 <template>
