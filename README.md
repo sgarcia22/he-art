@@ -1,6 +1,11 @@
 # HE(ART) 🌻
 
-![Screenshot](https://storage.googleapis.com/ethglobal-api-production/projects/cs85k/images/Screen%20Shot%202022-06-26%20at%203.52.21%20AM.png)
+![Main Page](https://storage.googleapis.com/ethglobal-api-production/projects/cs85k/images/Screen%20Shot%202022-06-26%20at%203.52.21%20AM.png)
+![Open Modal](https://storage.googleapis.com/ethglobal-api-production/projects/cs85k/images/Screen%20Shot%202022-06-26%20at%203.52.37%20AM.png)
+![Live Stream](https://storage.googleapis.com/ethglobal-api-production/projects/cs85k/images/Screen%20Shot%202022-06-26%20at%203.58.37%20AM.png)
+![Mint](https://storage.googleapis.com/ethglobal-api-production/projects/cs85k/images/Screen%20Shot%202022-06-26%20at%203.58.54%20AM.png)
+![Auction](https://storage.googleapis.com/ethglobal-api-production/projects/cs85k/images/Screen%20Shot%202022-06-26%20at%203.58.45%20AM.png)
+
 
 [Deployed Site](https://sparkling-daffodil-b5bb66.netlify.app/)
 [ETHGlobal Hackathon Submission](https://ethglobal.com/showcase/he-art-cs85k)
