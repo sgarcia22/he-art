@@ -53,7 +53,7 @@ export default {
             colorR: '255',
             colorB: '255',
             colorG: '255',
-            hex: '',
+            hex: '#255a196',
             artists: [
                 {
                     name: 'Julie',
