@@ -120,7 +120,7 @@ export default {
 <template>
   <div>
     <Header/>
-        <h1 :class="text-[this.hex]" class="mt-6 text-3xl font-semibold text-center capitalize lg:text-4xl dark:text-white">HE(ART)</h1>
+        <h1 class="mt-6 text-3xl font-semibold text-center capitalize lg:text-4xl dark:text-white">HE(ART)</h1>
                 
         <p class="max-w-2xl mx-auto mt-4 text-center text-gray-500 xl:mt-6 dark:text-gray-300">
             A unique collaboration between a group of diverse and extremely talented artists. All proceeds will go towards a voted fund.
