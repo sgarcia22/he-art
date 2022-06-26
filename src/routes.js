@@ -1,6 +1,7 @@
 import ArtistPage from './views/ArtistPage.vue'
 import LiveStreamingPage from './views/LiveStreamingPage.vue'
 import AuctionPage from './views/AuctionPage.vue'
+import MintPage from './views/MintPage.vue'
 
 /** @type {import('vue-router').RouterOptions['routes']} */
 export const routes = [
@@ -8,6 +9,7 @@ export const routes = [
   { path: '/artist', component: ArtistPage, meta: { title: 'ArtistPage' } },
   { path: '/live', component: LiveStreamingPage, meta: { title: 'LiveStreamingPage' } },
   { path: '/auction', component: AuctionPage, meta: { title: 'AuctionPage' } },
+  { path: '/mint', component: MintPage, meta: { title: 'MintPage' } },
   // {
   //   path: '/about',
   //   meta: { title: 'About' },
