@@ -10,7 +10,7 @@ export async function uploadLivepeerVideo() {
         'Content-Type': 'application/json'
         },
         data: JSON.stringify({
-        "url": "$EXTERNAL_URL",
+        "url": url,
         "name": "Example name"
     })
     });

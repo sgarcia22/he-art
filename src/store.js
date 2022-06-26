@@ -3,6 +3,7 @@ import { createStore } from 'vuex';
 export const store = createStore({
     state () {
       return {
+        timer: '',
         web3Provider: null,
         voted: null,
         pageIndex: 0,
