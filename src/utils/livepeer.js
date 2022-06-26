@@ -1,5 +1,5 @@
-const axios = require('axios');
-const fs = require('fs');
+import 'axios';
+import 'fs';
 
 export async function uploadLivepeerVideo() {
     var url = "https://www.youtube.com/watch?v=8CaZVVFYl2o";
