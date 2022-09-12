@@ -16,7 +16,7 @@
     "@tatumio/tatum": "^1.35.8",
     "@walletconnect/web3-provider": "^1.7.8",
     "axios": "^0.27.2",
-    "electron": "^19.0.6",
+    "electron": "^20.1.3",
     "ethers": "^5.6.9",
     "fetch": "^1.1.0",
     "http": "^0.0.1-security",
