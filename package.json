@@ -22,7 +22,7 @@
     "http": "^0.0.1-security",
     "https": "^1.0.0",
     "vue": "^3.2.37",
-    "vue-router": "^4.0.16",
+    "vue-router": "^4.1.6",
     "vue-universal-modal": "^1.1.4",
     "vue3-carousel": "^0.1.40",
     "vuex": "^4.0.2",
