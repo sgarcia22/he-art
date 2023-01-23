@@ -13,7 +13,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/vue-fontawesome": "^3.0.1",
-    "@tatumio/tatum": "^1.35.8",
+    "@tatumio/tatum": "^1.37.28",
     "@walletconnect/web3-provider": "^1.7.8",
     "axios": "^0.27.2",
     "electron": "^19.0.6",
